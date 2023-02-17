@@ -1,17 +1,18 @@
-/*console.assert(1 === 1);
+// console.assert(1 === 1);
 
-let sum = function(a, b){
-  return a+b;
-}
+// let sum = function(a, b){
+//   return a+b;
+// }
 
-console.assert(sum(1, 2) === 3);
-console.assert(sum(1, 20) === 3);*/
+// console.assert(sum(1, 2) === 3);
+// console.assert(sum(1, 20) === 3);
 
-/*let sumBuggy = function(a, b){
-  return a * b;
-}
+// let sumBuggy = function(a, b){
+//   return a * b;
+// }
 
-console.assert(sumBuggy(1, 2) === 3);*/
+// console.assert(sumBuggy(1, 2) === 3);
+
 
 let assertEqual = function(actual, expected) {
   if (actual === expected) {
@@ -23,12 +24,10 @@ let assertEqual = function(actual, expected) {
 };
 
 
+module.exports = assertEqual;
 
 
 
 
 
-
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
 
