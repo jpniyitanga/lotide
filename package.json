@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@jpniyitanga/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library of useful reusable functions to help you test your code faster",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/jpniyitanga/lotide.git"
   },
-  "author": "",
+  "author": "Jean Pierre Niyitanga",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jpniyitanga/lotide/issues"
