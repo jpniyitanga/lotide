@@ -10,6 +10,4 @@ let assertArraysEqual = function(actual, expected) {
 
 };
 
-
-
   module.exports = assertArraysEqual;
