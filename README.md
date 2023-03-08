@@ -12,11 +12,11 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-`npm install @jpniyitanga/lotide`
+`npm install @jpniyitanga/lotide@1.2.0`
 
 **Require it:**
 
-`const _ = require('@jpniyitanga/lotide');`
+`const _ = require('@jpniyitanga/lotide@1.2.0');`
 
 **Call it:**
 
