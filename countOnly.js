@@ -1,22 +1,19 @@
 const assertEqual = require('./assertEqual');
 
-
-let countOnly = function(allItems, itemToCount) {
+const countOnly = function(allItems, itemToCount) {
   let output = {};
-for (let item of allItems) {
-  if (itemToCount[item] === true) {
+  for (let item of allItems) {
+    if (itemToCount[item] === true) {
     
-   if (output[item]) {
-     output[item] += 1
-   } else {
-     output[item] = 1
-   }
+      if (output[item]) {
+        output[item] += 1;
+      } else {
+        output[item] = 1;
+      }
+    }
   }
-}
-return output;
-
+  return output;
 };
-
 module.exports = countOnly;
 
 

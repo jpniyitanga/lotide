@@ -1,20 +1,14 @@
-let middle = function(array) {
-  let middleElements = [];
-  if (array.length === 0 || array.length === 2) {
-    return middleElements;
-  }    
-  else if (array.length % 2 !== 0) {
-    middleElements.push(array[(array.length - 1) / 2]);
-    return middleElements;
+const middle = function(array) {
+  let middleElement = [];
+  if (array.length === 0 || array.length === 1 || array.length === 2) {
+    return middleElement;
+  } else if (array.length % 2 !== 0) {
+    middleElement.push(array[(array.length - 1) / 2]);
+    return middleElement;
   } else {
-    middleElements.push(array[(array.length / 2) - 1 ]);
-    middleElements.push(array[(array.length / 2) ]);
-    return middleElements;
+    middleElement.push(array[(array.length / 2) - 1 ]);
+    middleElement.push(array[(array.length / 2) ]);
+    return middleElement;
   }
-
-    
-
 };
-
 module.exports = middle;
-

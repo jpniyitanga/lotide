@@ -10,21 +10,13 @@ const letterPositions = function(sentence) {
     if (letter === " ") {
       continue;
     }
-    
     if (results[letter]) {
       results[letter].push(i);
     } else {
       results[letter] = indexPosition;
       results[letter] = [i];
     }
-    
-    
   }
-  
-  
-  //console.log(results)
   return results;
 };
-
-
 module.exports = letterPositions;
