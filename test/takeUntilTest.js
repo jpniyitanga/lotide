@@ -10,3 +10,9 @@ console.log('---');
 const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
 const results2 = takeUntil(data2, x => x === ',');
 console.log(results2);
+
+console.log('---');
+
+const data3 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
+const results3 = takeUntil(data3, x => x === ':'); // should return all items in data3
+console.log(results3);

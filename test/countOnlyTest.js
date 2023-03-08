@@ -4,11 +4,11 @@ const assertEqual = require('../assertEqual');
 
 const firstNames = ["Karl", "Salima", "Agouhanna", "Fang", "Kavith", "Jason", "Salima", "Fang", "Joe"];
 
-let friends = { 
-  "Jason": true, 
-  "Karima": true, 
-  "Fang": true, 
-  "Agouhanna": false 
+let friends = {
+  "Jason": true,
+  "Karima": true,
+  "Fang": true,
+  "Agouhanna": false
 };
 
 const result1 = countOnly(firstNames, friends);
