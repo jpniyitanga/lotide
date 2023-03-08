@@ -2,7 +2,7 @@
   "name": "@jpniyitanga/lotide",
   "version": "1.0.0",
   "description": "A library of useful reusable functions to help you test your code faster",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/jpniyitanga/lotide#readme",
   "devDependencies": {
     "chai": "^4.3.7",
-    "mocha": "^9.2.2"
+    "mocha": "^10.2.0"
   }
 }
