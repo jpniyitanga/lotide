@@ -1,5 +1,5 @@
-const head   = require('./head');
-const tail   = require('./tail');
+const head = require('./head');
+const tail = require('./tail');
 const middle = require('./middle');
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
@@ -15,6 +15,7 @@ const letterPositions = require('./letterPositions');
 const map = require('./map');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
+const reverse = require('./reverse');
 
 
 module.exports = {
@@ -33,6 +34,7 @@ module.exports = {
   letterPositions,
   map,
   takeUntil,
-  without
-
+  without,
+  countLetters,
+  reverse
 };
